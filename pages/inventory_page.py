@@ -48,3 +48,7 @@ class InventoryPage(BasePage):
     def go_to_cart(self):
         """Click the shopping cart icon."""
         self.click(self.CART_LINK)
+
+
+class InventoryPage:
+    pass
